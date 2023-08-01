@@ -11,7 +11,7 @@ provider "snowflake" {
   role = "SYSADMIN"
   region = "AWS_CA_CENTRAL_1"
   account = "LQ64275"
-  rivate_key_path = "~/.ssh/snowflake_tf_snow_key.p8"
+  private_key_path = "~/.ssh/snowflake_tf_snow_key.p8"
   username = "tf-snow"
 }
 
